@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Official Website</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Set a background color if needed */
+            color: #000; /* Set text color */
+        }
+        .big-message {
+            font-size: 2em;
+            text-align: center;
+        }
+        .link {
+            margin-top: 20px;
+        }
+        .link a {
+            text-decoration: none;
+            color: #0077cc; /* Set link color */
+        }
+    </style>
+</head>
+<body>
+    <div class="big-message">
+        Welcome to Your Official Website!
+    </div>
+    <div class="link">
+        <a href="https://your-username.github.io/your-repository" target="_blank">Visit Now</a>
+    </div>
+</body>
+</html>
